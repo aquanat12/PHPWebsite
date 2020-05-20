@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  background: #191919;
+  color: #3498db;
+  width: 200px;
+  text-transform: uppercase;
+}
+
+.signup{
+  width: 300px;
+  padding: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.signup input[type="text"],.signup input[type="password"],.signup input[type="email"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.signup input[type="text"]:focus, .signup input[type="password"]:focus, .signup input[type="email"]:focus{
+   width: 280px;
+   border-color: #2ecc71;
+}
+
+.signup input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.signup input[type="submit"]:hover{
+  background: #2ecc71;
+}
+
+.signup select{
+  width: 200px;
+  border-radius: 24px;
+  text-align: center;
+  border: 2px solid #3498db;
+  background: #191919;
+  color: #2ecc71;
+  padding: 14px 10px;
+}
+
+h1{
+  width: 400px;
+  transform: translate(-13%);
+}
+
+.signuperror{
+	color: red;
+}

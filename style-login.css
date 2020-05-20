@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  background: #191919;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.Logging-in{
+  width: 300px;
+  padding: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-buttom: 10px;
+}
+
+.Logging-in input[type="text"],.Logging-in input[type="password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.Logging-in input[type="text"]:focus, .Logging-in input[type="password"]:focus{
+   width: 280px;
+   border-color: #2ecc71;
+}
+
+.Logging-in input[type="submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.Logging-in input[type="submit"]:hover{
+  background: #2ecc71;
+}
+
+
+.signup{
+  width: 300px;
+  padding: 0px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.signup input[type="submit"]{
+  margin-top: 10px;
+  background: none;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  position: absolute;
+   transform: translate(50px);
+}
+
+.signup input[type="submit"]:hover{
+  background: #2ecc71;
+}
+
+.loginerror{
+	color: red;
+}
